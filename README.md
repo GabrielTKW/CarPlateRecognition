@@ -1,13 +1,17 @@
-CarPlateRecognition
-A Python-based car plate recognition system using OpenCV's image processing capabilities and Haar Cascades.
+# CarPlateRecognition
 
-Technologies Used
-Python: Core language for processing.
-OpenCV: For image processing and car plate detection.
-Haar Cascade Classifier: Pre-trained XML model for recognizing car plates.
-Features
-Detects and identifies car plates from images.
-Uses a dedicated Haar Cascade model optimized for Russian car plates.
-Usage
-Clone the repository.
-Run Main.py with OpenCV installed to begin detection.
+A Python-based system for car plate recognition using OpenCV and Haar Cascades.
+
+## Technologies Used
+- **Python**: Core programming language.
+- **OpenCV**: For image processing and car plate detection.
+- **Haar Cascade Classifier**: Pre-trained XML model for recognizing car plates, specifically optimized for Russian plates.
+
+## Features
+- Detects and identifies car plates from images.
+- Uses Haar Cascade for accurate plate detection.
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GabrielTKW/CarPlateRecognition.git
